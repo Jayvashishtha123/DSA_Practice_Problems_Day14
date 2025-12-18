@@ -12,6 +12,7 @@ public class Prime_Number02 {
         }
         return true;
     }
+
     // Check if two numbers are anagrams
     public static boolean isAnagram(int a, int b) {
         char[] x = String.valueOf(a).toCharArray();

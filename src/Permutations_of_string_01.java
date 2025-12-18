@@ -4,8 +4,11 @@ public class Permutations_of_string_01 {
 
     public static String[] permutationsRecursive(String str) {
         List<String> result = new ArrayList<>();
+
         char[] chars = str.toCharArray();
+
         permute(chars, 0, result);
+
         return result.toArray(new String[0]);
     }
     private static void permute(char[] arr, int index, List<String> result) {
